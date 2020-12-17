@@ -1,0 +1,89 @@
+input:-webkit-autofill,select:-webkit-autofill {  
+    -webkit-box-shadow: 0 0 0px 1000px white  inset !important;  
+} 
+ 
+ 
+input{
+    outline-color: invert ;
+	outline-style: none ;
+	outline-width: 0px ;
+	border: none ;
+	border-style: none ;
+	text-shadow: none ;
+	-webkit-appearance: none ;
+	-webkit-user-select: text ;
+	outline-color: transparent ;
+	box-shadow: none;
+}
+
+body {
+    background-color: rgb(24, 2, 2);
+}
+
+h1 {
+    color: cornsilk;
+    font-weight: 250;
+    text-align: center;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    color: cornsilk;
+    text-align: center;
+    font-weight: 100;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#typed-value {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    background-color: transparent;
+    border-radius: 9px;
+    border-color: whitesmoke;
+    border-style: solid;
+    height: 38px;
+    width: 600px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+#start {
+    position: absolute;
+    top: 60%;
+    left: 43.5%;
+    border-radius: 2rem;
+    width: 180px;
+    height: 48px;
+    background-color: teal;
+    color: cornsilk;
+    border: none;
+    font-size: 24px;
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#start:hover {
+    background-color: #0d0b2b;
+    color: darkgrey;
+}
+
+#start:active {
+    -webkit-appearance:none;
+}
+
+#quote {
+    font-size: 32px;
+}
+
+.highlight {
+    background-color: yellow;
+    color: rgb(10, 3, 73);
+}
+  
+.error {
+    background-color: lightcoral;
+    border: red;
+}
